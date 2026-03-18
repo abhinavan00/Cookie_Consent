@@ -75,13 +75,16 @@ Challenge:
    property to 'none'.
 */
  
-
+    display: none;
     height: 420px;
     width: 350px;
     border-radius: 5px;
     box-shadow: 0px 0px 6px 2px #666;
     background-color: #212529;
     color: whitesmoke;
+    position: fixed;
+    inset: 0;
+    margin: auto;
 }
 
 .modal-inner{
